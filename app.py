@@ -73,7 +73,7 @@ if selected_audio:
 
     # Tampilkan grafik gelombang audio
     plt.figure(figsize=(10, 4))
-    librosa.display.waveshow(x, sr=sr)
+    librosa.display.waveshow(x, sr=sr,color='b')
     plt.xlabel("Waktu (detik)")
     plt.ylabel("Amplitudo")
     plt.title("Grafik Gelombang Audio")
